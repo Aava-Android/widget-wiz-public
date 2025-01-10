@@ -1,9 +1,9 @@
-*** WidgetWiz ***
+### WidgetWiz 
 
 WidgetWiz is an advanced Android mobile device feature testing application designed to offer comprehensive and streamlined testing for various device functionalities. This app eliminates the need for external setups and provides intuitive in-app testing and reporting capabilities. Compatible with Android 13 and above, WidgetWiz is ideal for device diagnostics, quality assurance, and feature validation.
 
 
-** Features **
+## Features 
 
 Core Capabilities
 
@@ -50,7 +50,7 @@ User Guidance: Includes an in-app manual for ease of use.
 Compatibility: Supports all Android versions from atleast Android 13 to Android 15.
 
 
-** Installation: **
+## Installation: 
 
 
 To install and set up Widget Wiz for development, follow these steps:
@@ -59,12 +59,12 @@ Clone the repository to your PC
 
 Install dependencies using: npm install
 
+Modify .../node_modules/react-native-android-shell/android/build.gradle  by changing the content of build.gradle to content of fix.txt (included in repository)
+
 Start the application: npm start
 
 
 
-
-
-** About the Project **
+## About the Project 
 
 WidgetWiz is a school project created by students of Oulu University of Applied Sciences (OAMK): Anssi Kulotie, Niko Kolehmainen, and Miikka Tyvelä.
