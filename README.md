@@ -1,79 +1,70 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+*** WidgetWiz ***
 
-# Getting Started
+WidgetWiz is an advanced Android mobile device feature testing application designed to offer comprehensive and streamlined testing for various device functionalities. This app eliminates the need for external setups and provides intuitive in-app testing and reporting capabilities. Compatible with Android 13 and above, WidgetWiz is ideal for device diagnostics, quality assurance, and feature validation.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+** Features **
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Core Capabilities
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Audio Test: Evaluate the speaker and microphone functionality.
 
-```bash
-# using npm
-npm start
+Backlight Test: Perform stress tests on backlight component.
 
-# OR using Yarn
-yarn start
-```
+Bluetooth Test: Scan and validate Bluetooth functionality.
 
-## Step 2: Start your Application
+Cellular Test (5G, LTE): Test and verify mobile network connections.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Camera Test: Includes QR code reading with device cameras.
 
-### For Android
+GPS Test: Scan and assess GPS performance.
 
-```bash
-# using npm
-npm run android
+NFC Test: Conduct card-read test.
 
-# OR using Yarn
-yarn android
-```
+Battery and Charging Data: Detailed analysis of battery and charging metrics.
 
-### For iOS
+Thermal Data: Access device temperature data for performance evaluation.
 
-```bash
-# using npm
-npm run ios
+USB-Device Test: Perform read/write test on USB connections.
 
-# OR using Yarn
-yarn ios
-```
+Vibrator Test: Test vibration functionality with accelerometer integration.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+WLAN Test: Scan and validate Wi-Fi connectivity.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Hardware Data: Retrieve detailed hardware information.
 
-## Step 3: Modifying your App
+Screen Touch Test: Record touch events.
 
-Now that you have successfully run the app, let's modify it.
+Device Sensor Test: Active sensor listing and connection follow-up.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+Accessory Test: Test up to three connected accessories.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+CPIN (SIM-Card) Test: Validate SIM card connection with device modem.
 
-## Congratulations! :tada:
+Additional Highlights
 
-You've successfully run and modified your React Native App. :partying_face:
+Data Backup: Supports local backups to SD cards, USB drives, and automatic cloud backup.
 
-### Now what?
+User Guidance: Includes an in-app manual for ease of use.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+Compatibility: Supports all Android versions from atleast Android 13 to Android 15.
 
-# Troubleshooting
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+** Installation: **
 
-# Learn More
 
-To learn more about React Native, take a look at the following resources:
+To install and set up Widget Wiz for development, follow these steps:
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Clone the repository to your PC
+
+Install dependencies using: npm install
+
+Start the application: npm start
+
+
+
+
+
+** About the Project **
+
+WidgetWiz is a school project created by students of Oulu University of Applied Sciences (OAMK): Anssi Kulotie, Niko Kolehmainen, and Miikka Tyvelä.
