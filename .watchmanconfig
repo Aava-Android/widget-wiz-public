@@ -1,0 +1,5 @@
+{
+    "ignore_dirs": ["node_modules", "ios", "android"],
+    "suppress_symlinks": true
+  }
+  
