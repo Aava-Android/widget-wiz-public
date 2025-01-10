@@ -68,6 +68,9 @@ Start the application: npm start
 ## About the Project 
 
 WidgetWiz is a school project created by students of Oulu University of Applied Sciences (OAMK):
+
 Anssi Kulotie
+
 Niko Kolehmainen
+
 Miikka Tyvelä
