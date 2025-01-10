@@ -5,7 +5,7 @@ WidgetWiz is an advanced Android mobile device feature testing application desig
 
 ## Features 
 
-Core Capabilities
+### Core Capabilities
 
 Audio Test: Evaluate the speaker and microphone functionality.
 
@@ -41,7 +41,7 @@ Accessory Test: Test up to three connected accessories.
 
 CPIN (SIM-Card) Test: Validate SIM card connection with device modem.
 
-Additional Highlights
+### Additional Highlights
 
 Data Backup: Supports local backups to SD cards, USB drives, and automatic cloud backup.
 
