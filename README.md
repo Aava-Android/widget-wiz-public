@@ -57,7 +57,7 @@ To install and set up Widget Wiz for development, follow these steps:
 
 Clone the repository to your PC
 
-Install dependencies using: npm install
+Install dependencies using: npm install --force
 
 Modify .../node_modules/react-native-android-shell/android/build.gradle  by changing the content of build.gradle to content of fix.txt (included in repository)
 
