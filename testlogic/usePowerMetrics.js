@@ -91,6 +91,8 @@ URI (Voltage-Current Ratio): ${metrics.uri} V/A
 Charger Skin Temp: ${metrics.chargerSkinTemp} °C
 USB Connection Temp: ${metrics.usbConnTemp} °C
 VBUS Voltage: ${metrics.vbusVoltage} V
+USB Current Now: ${metrics.usbCurrentNow} A
+
 --------------------------------------------------------
 `;
 
@@ -202,6 +204,11 @@ VBUS Voltage: ${metrics.vbusVoltage} V
 
       const vbusVoltageResult = await NativeModules.RootCommandModule.runAsRoot('cat /sys/class/power_supply/usb/voltage_now');
       let vbusVoltage = vbusVoltageResult ? (parseInt(vbusVoltageResult) / 1000000).toFixed(3) : 'N/A';
+      
+      // Fetch the USB current_now value
+      const usbCurrentResult = await NativeModules.RootCommandModule.runAsRoot('cat /sys/class/power_supply/usb/current_now');
+      const usbCurrentNow = usbCurrentResult ? (parseInt(usbCurrentResult) / 1000000).toFixed(3) : 'N/A';
+
 
       if (vbusVoltage < 3 || vbusVoltage > 20) {
         vbusVoltage = 'Invalid';
@@ -236,6 +243,7 @@ VBUS Voltage: ${metrics.vbusVoltage} V
         chargerSkinTemp,
         usbConnTemp,
         vbusVoltage,
+        usbCurrentNow, // Add USB current value to metrics
         power,
         pui,
         uri,
